@@ -143,7 +143,7 @@ ul {
 
 	/* render fix hair 1 */
 
-	position: absolute;;
+	position: absolute;
 	width: 755px;
 	height: 412px;
 	left: 1052px;
@@ -200,6 +200,7 @@ ul {
 }
 
 .body .block-2 {
+	position: relative;
 	box-sizing: border-box;
 	background-color: #FDE8B3;
 	border-bottom-right-radius: 5%;
@@ -209,6 +210,7 @@ ul {
 }
 
 .body .block-2 .block-2-1 {
+	position:;
 	border-bottom-right-radius: 5%;
 	border-bottom-left-radius: 5%;
 	border-top-right-radius: 5%;
@@ -226,8 +228,7 @@ ul {
 	text-align: right;
 }
 
-.body .block-2  .ticket {
-	position: absolute;
+.body .block-2 .block-2-1 .ticket {
 	margin: auto;
 	height: 76.33829498291016px;
 	width: 284px;
@@ -241,7 +242,7 @@ ul {
 	border-bottom-left-radius: 53%;
 }
 
-.body .block-2 .ticket .ticket-1 {
+.body .block-2 .block-2-1 .ticket .ticket-1 {
 	text-align: center;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
@@ -252,7 +253,7 @@ ul {
 	border-bottom-left-radius: 53%;
 }
 
-.body .block-2 .ticket .ticket-1 .text-ticket {
+.body .block-2 .block-2-1 .ticket .ticket-1 .text-ticket {
 	font-family: iCiel Koni;
 	font-style: normal;
 	font-weight: 900;
