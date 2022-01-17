@@ -69,37 +69,53 @@
 								Suspendisse iaculis libero lobortis condimentum gravida. Aenean auctor iaculis risus, lobortis molestie lectus consequat a.
 							</p>
 						</div>
-						<div >
-							<ul>
-								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
-							</ul>
-						</div>
+						<div class="text-news"> <!-- Text block 1 phần thông tin-->
+						<ul>
+							<li><img src="img/star.png" alt="img">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li><img src="img/star.png" alt="img">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li><img src="img/star.png" alt="img">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+							<li><img src="img/star.png" alt="img">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+						</ul>
 					</div>
 				</div>
 			</div>
-			<!-- Block 2 -->
-			<div class="block-2" style="width: 40%; height:420px; float: left;">
-				<div class="block-2-1">
-					<form action="index_submit" method="get" accept-charset="utf-8">
-						<select >
-							<option value="goigiadinh">Gói gia đình</option>
-							<option value="goivip">Gói VIP</option>
-							<option value="goitieuchuan">Gói tiêu chuẩn</option>
-						</select>
-						<div class="input-signup">
-							<input type="text" name="soluongve" placeholder="Số lượng vé">
-							<input type="date" id="start" name="trip-start"
-							value="dd/mm/yy"
-							min="2015-01-01" max="2025-12-31">
-						</div>
-						<p class="text-ticket">VÉ CỦA BẠN</p>
-					</form>
-				</div>
-			</div>
 		</div>
-	</div>
-</body>
+		<!-- Block 2 -->
+		<div class="block-2" style="width: 40%; height:420px; float: left;">
+			<div class="block-2-1"> <!-- Content block 2 -->
+			<div>
+				<p class="text-ticket">VÉ CỦA BẠN</p>
+			</div>
+			<div>
+				<form action="index_submit" method="get" accept-charset="utf-8">
+					<select >
+						<option value="goigiadinh">Gói gia đình</option>
+						<option value="goivip">Gói VIP</option>
+						<option value="goitieuchuan">Gói tiêu chuẩn</option>
+					</select>
+					<div class="input-signup"> <!-- Ngày đặt vé -->
+					<input type="text" name="soluongve" placeholder="Số lượng vé">
+					<input type="date" id="start" name="trip-start"
+					value="dd/mm/yy"
+					min="2015-01-01" max="2025-12-31">
+				</div>
+				<div>
+					<input type="text" name="hoten" placeholder="Họ và tên">
+				</div>
+				<div>
+					<input type="text" name="number-phone" placeholder="Số điện thoại">
+				</div>
+				<div>
+					<input type="text" name="mail" placeholder="Địa chỉ email">
+				</div>
+				<div>
+					<input type="submit" name="submit" value="Đặt vé">
+				</div>
+			</form>
+		</div>
+		</div> <!-- End block 2-1 -->
+		</div> <!-- End bock 2 -->
+		</div> <!-- End block body -->
+		</div> <!-- End block background -->
+	</body>
 </html>

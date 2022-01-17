@@ -153,7 +153,8 @@ ul {
 .body {
 	margin: AUTO;
 	width: 91%;
-	display: block;"
+	display: block;
+	"
 }
 
 .body .block-1 {
@@ -219,4 +220,9 @@ ul {
 	margin: auto;
 	margin-top: 20px;
 	display: block;
+}
+
+.body .block-1 .block-1-1 .text-news {
+	width: 80%;
+	text-align: right;
 }
