@@ -261,3 +261,12 @@ ul {
 	line-height: 18.5px;/* W */
 	color: #FFFFFF;
 }
+
+
+.block-2 .block-2-1 .contact-form-list {
+	text-align: left;
+	margin-left: 10%;
+}
+.block-2 .block-2-1 .contact-form-list .input-text{
+	size: 150px;
+}
