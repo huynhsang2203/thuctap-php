@@ -1,16 +1,25 @@
 .body {
-    position: absolute;
+    position: relative;
     width: 1920px;
     height: 1080px;
-
     /* bg */
-
     background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
     border-radius: 32px;
 }
 
+.bg {
+    position: relative;
+    width: 1784px;
+    height: 941px;
+    left: 68px;
+    top: 0px;
+    /* Gradient / bg */
+    background: linear-gradient(180deg, #FFB648 0%, #FFB648 100%);
+    box-shadow: 0px 4px 27px rgba(180, 106, 38, 0.25);
+    border-radius: 0px 0px 56px 56px;
+}
+
 .header {
-    position: absolute;
     width: 1924px;
     height: 100.82px;
     left: 0px;
@@ -20,40 +29,82 @@
     border-radius: 32px;
 }
 
-.container {
-    position: relative;
-    width: 1784px;
-    height: 961px;
-    left: 68px;
-    top: 72px;
+.header .img-little {
+    /* Little & Little Logo (ngang) 1 */
+    position: absolute;
+    width: 229px;
+    height: 91px;
+    left: 201px;
+    top: 1px;
+}
 
-    /* Gradient / bg */
-
-    background: linear-gradient(180deg, #FFB648 0%, #FFB648 100%);
-    box-shadow: 0px 4px 27px rgba(180, 106, 38, 0.25);
+.bg .bg-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
     border-radius: 0px 0px 56px 56px;
+    background: linear-gradient(0deg, #FF8B2C 1.71%, #FF8D2A 4.22%, #FFA413 37.82%, #FFB105 69.39%, #FFB600 96.65%);
+    opacity: 0.4;
+}
+
+.row {
+    width: 100%;
+    height: 236.39px;
 }
 
 .row h1 {
     /* Sự kiện nổi bật */
-
-
     position: absolute;
     left: 30.72%;
     right: 30.72%;
-    top: 7.49%;
+    top: 7.49px;
     bottom: 82.1%;
-
     /* Header */
-
-    font-family: iCiel Koni;
+    font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     /* identical to box height, or 104% */
-
-
     color: #FFFFFF;
+}
 
+.sukien {
+    width: 100%;
+    height: 499px;
+    padding-right: 50px;
+    padding-left: 60px;
+    padding-top: 0px;
+}
+
+.sukien .sukien1 {
+    position: relative;
+    width: 356px;
+    height: 499px;
+    background: #FFFFFF;
+    float: left;
+    padding: 0px;
+    margin: 28px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.sukien .sukien1 .sukien-img {
+    width: 356px;
+    height: 240px;
+}
+
+.sukien .sukien1 .sukien-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.sukien .sukien1 .text-sukien {
+    /* Sự kiện 1 */
+    margin-left: 24px;
+    line-height: 5px;
 }
