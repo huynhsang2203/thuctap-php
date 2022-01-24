@@ -38,6 +38,10 @@
     top: 1px;
 }
 
+.header .img-little ul li a {
+    float: right;
+}
+
 .bg .bg-1 {
     width: 100%;
     height: 100%;
@@ -107,4 +111,28 @@
     /* Sự kiện 1 */
     margin-left: 24px;
     line-height: 5px;
+}
+
+.text-sukien h3 {
+    /* 25.000 VNĐ */
+    position: static;
+    width: 212px;
+    height: 24px;
+    left: 24px;
+    top: 123px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FA7D09;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
 }
