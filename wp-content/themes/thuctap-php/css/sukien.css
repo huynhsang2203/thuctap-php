@@ -28,7 +28,6 @@
 }
 
 .header .img-little {
-    background: blue;
     position: absolute;
     width: 229px;
     height: 91px;
@@ -43,7 +42,7 @@
     color: #FFFFFF;
     padding: 10px;
     margin: 0px;
-    left: 498px;
+    left: 7px;
 }
 
 .bg .bg-1 {
