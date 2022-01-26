@@ -35,4 +35,20 @@
 	height: 91px;
 	left: 201px;
 	top: 1px
-		}
+}
+
+.test-1 {
+	position: absolute;
+	float: left;
+	width: 33%;
+}
+
+.test-2 {
+	position: absolute;
+	width: 33%;
+	left: 25%;
+	right: -6.26%;
+	top: 4.1%;
+	bottom: 0%;
+	transform: rotate(9.58deg);
+}
