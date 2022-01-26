@@ -3,8 +3,9 @@
 	/* Sự kiện */
 
 	position: relative;
-				width: 1920px;
-	height: 1080px;/* bg */
+	width: 1920px;
+	height: 1080px;
+	/* bg */
 	background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
 	border-radius: 35px;
 }
