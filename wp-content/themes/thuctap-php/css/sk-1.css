@@ -2,7 +2,7 @@
 
 	/* Sự kiện */
 
-	position: relative;
+	position: absolute;
 	width: 1920px;
 	height: 1080px;	/* bg */
 	background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
@@ -37,18 +37,50 @@
 	top: 1px
 }
 
+.text-and-draw {
+	position: relative;
+	width: 100%;
+	height: 226px;
+	background: blue;
+}
+
 .test-1 {
 	position: absolute;
 	float: left;
-	width: 33%;
+}
+
+.text-sukien1 {
+
+	/* Sự kiện 1 */
+	float: left;
+	width: 420px;
+	position: absolute;
+	left: 42.32%;
+	right: 42.32%;
+	top: 50%;
+	bottom: 84.08%;
+	font-family: iCiel Koni;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 100px;/* or 156% */
+	display: flex;
+	align-items: center;/* W */
+	color: #FFFFFF;
 }
 
 .test-2 {
-	position: absolute;
-	width: 33%;
-	left: 25%;
-	right: -6.26%;
-	top: 4.1%;
-	bottom: 0%;
-	transform: rotate(9.58deg);
+	position: relative;
+	left: 1313.17px;
+	top: -67.75px;
+}
+
+.container-ticket {
+
+	/* khung chứa vé */
+	opacity: 0.4;
+	position: relative;
+	width: 1520px;
+	height: 654px;
+	margin: auto;
 }
