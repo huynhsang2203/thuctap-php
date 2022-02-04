@@ -28,14 +28,15 @@
 	box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
 	border-radius: 32px
 }
+
 .header .navbar, ul, li, a {
-    float: left;
-    list-style-type: none;
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 10px;
-    margin: 0px;
-    left: 746px;
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0px;
+	left: 746px;
 }
 
 .header .img-little {
@@ -46,18 +47,19 @@
 	top: 1px
 }
 
-.text-and-draw {
+.title {
+	background-color: red;
 	position: relative;
 	width: 100%;
 	height: 226px;
 }
 
-.test-1 {
+.group-1 {
 	position: absolute;
 	float: left;
 }
 
-.text-sukien1 {
+.text-title {
 
 	/* Sự kiện 1 */
 	float: left;
@@ -77,69 +79,15 @@
 	color: #FFFFFF;
 }
 
-.test-2 {
+.group-2 {
 	position: relative;
 	left: 1313.17px;
 	top: -67.75px;
 }
 
-.ctn-ticket {
+.content-center {
 
 	/* khung chứa vé */
 	position: absolute;
-	width: 1520px;
-	height: 654px;
-	margin: 0px 0px 152px 152px;
-}
-
-.draw-container-ticket {
-	position: absolute;
-}
-
-.ctn-left {
-	float: left;
-	position: relative;
-	width: 50%;
-	height: 479px;
-	margin-top: 70px;
-	margin-left: 58px;
-}
-
-.ctn-right {
-	float: left;
-	background: red;
-	position: relative;
-	width: 42%;
-	right: 0px;
-	height: 479px;
-	margin-top: 70px;
-	margin-right: 58px;
-}
-
-.ctn-left .img-1 {
-
-	/* Ảnh nội dung sự kiện 1 */
-	position: relative;
-}
-
-.ctn-ticket .ctn-left .ctn-left-text {
-	position: absolute;
-	width: 50%;
-	height: 479px;
-}
-
-.ctn-ticket .ctn-left .ctn-left-text b, span {
-	position: relative;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 25px;
-	line-height: 28px;/* or 150% */
-	display: block;
-	align-items: center;
-	text-align: justify;
-}
-
-.ctn-ticket .ctn-right {
-	width: 50%;
+	background-size: cover;
 }
