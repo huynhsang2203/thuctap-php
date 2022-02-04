@@ -48,7 +48,6 @@
 }
 
 .title {
-	background-color: red;
 	position: relative;
 	width: 100%;
 	height: 226px;
@@ -80,14 +79,8 @@
 }
 
 .group-2 {
-	position: relative;
-	left: 1313.17px;
-	top: -67.75px;
-}
-
-.content-center {
-
-	/* khung chứa vé */
 	position: absolute;
-	background-size: cover;
+	right: 0px;
+	bottom: -15px;
 }
+
