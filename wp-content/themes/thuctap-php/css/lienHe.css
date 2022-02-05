@@ -57,7 +57,7 @@ header .banner {
 	top: 0px;
 }
 
-header .tags-thongtin {
+header .tags-nav {
 
 	/* CSS tags */
 
@@ -270,7 +270,6 @@ header .tags-phone #tags-phone-li p {
 	height: 655px;
 	left: 211px;
 	top: 293px;
-	background-color: red;
 }
 
 .dangki {
@@ -285,6 +284,91 @@ header .tags-phone #tags-phone-li p {
 	top: 441px;
 }
 
+.dienthoai-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	position: absolute;
+	width: 231px;
+	height: 63px;
+	left: 49px;
+	top: 60px;
+}
+
+.dienthoai-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	position: static;
+	width: 145px;
+	height: 63px;
+	left: 86px;
+	top: 0px;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+.dienthoai-text #text-1 {
+
+	/* Điện thoại */
+	position: static;
+	left: 0%;
+	right: 11.03%;
+	top: 0%;
+	bottom: 53.97%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	color: #12265A;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.dienthoai-text #text-2 {
+
+	/* +84 145 689 798 */
+	position: static;
+	left: 0%;
+	right: 0%;
+	top: 58.73%;
+	bottom: 0%;/* 18 medium */
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;/* identical to box height, or 144% */
+	display: flex;
+	align-items: center;/* Text */
+	color: #23221F;
+	opacity: 0.7;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.dienthoai-container img {
+	position: static;
+	left: 0%;
+	right: 73.16%;
+	top: 0%;
+	bottom: 1.59%;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 24px;
+}
+
 .diachi {
 
 	/* địa chỉ */
@@ -297,14 +381,287 @@ header .tags-phone #tags-phone-li p {
 	top: 0px;
 }
 
+.diachi #logo-add {
+
+	/* adress 1 */
+	position: absolute;
+	left: 8.91%;
+	right: 79.59%;
+	top: 24.64%;
+	bottom: 45.41%;
+}
+
+.diachi .diachi-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	position: absolute;
+	width: 358px;
+	height: 89px;
+	left: 134px;
+	top: 48px;
+}
+
+.diachi .diachi-text #text-1 {
+
+	/* Địa chỉ: */
+
+
+	position: static;
+	left: 0%;
+	right: 74.3%;
+	top: 0%;
+	bottom: 67.42%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #12265A;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.diachi .diachi-text #text-2 {
+
+	/* 86/33 Âu Cơ, Phường 9, Quận Tân Bình, TP. Hồ Chí Minh */
+	position: static;
+	left: 0%;
+	right: 0%;
+	top: 41.57%;
+	bottom: 0%;/* 18 medium */
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;/* or 144% */
+	display: flex;
+	align-items: center;/* Text */
+	color: #23221F;
+	opacity: 0.7;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
 .email {
 
 	/* Email */
-
-
 	position: absolute;
 	width: 539px;
 	height: 205px;
 	left: 980px;
 	top: 220px;
+}
+
+.email #logo-email {
+
+	/* mail-inbox-app 1 */
+	position: absolute;
+	left: 8.91%;
+	right: 79.59%;
+	top: 29.27%;
+	bottom: 40.49%;
+}
+
+.email .email-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	position: absolute;
+	width: 244px;
+	height: 63px;
+	left: 134px;
+	top: 66px;
+}
+
+.email .email-text #text-1 {
+
+	/* Email: */
+
+
+	position: static;
+	left: 0%;
+	right: 62.3%;
+	top: 0%;
+	bottom: 53.97%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	color: #12265A;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.email .email-text #text-2 {
+
+	/* investigate@your-site.com */
+	position: static;
+	left: 0%;
+	right: 0%;
+	top: 58.73%;
+	bottom: 0%;/* 18 medium */
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;/* identical to box height, or 144% */
+	display: flex;
+	align-items: center;/* Text */
+	color: #23221F;
+	opacity: 0.7;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.dangki p {
+
+	/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis justo. Etiam volutpat tellus quis risus volutpat, ut posuere ex facilisis. */
+	position: absolute;
+	left: 4.47%;
+	right: 40.92%;
+	top: 6.89%;
+	bottom: 80.83%;/* 20 medium */
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;/* or 150% */
+
+	/* Text */
+
+	color: #23221F;
+	opacity: 0.7;
+}
+
+.thongtin-dangki {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	position: absolute;
+	width: 808px;
+	height: 138px;
+	left: 68px;
+	top: 159px;
+}
+
+.ten-sdt {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	position: static;
+	width: 293px;
+	height: 136px;
+	left: 0px;
+	top: 0px;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+.ten-sdt #ten {
+	position: static;
+	width: 293px;
+	height: 56px;
+	left: 0px;
+	top: 0px;/* W */
+	background: #FFFFFF;/* inner shadow */
+	box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+	border-radius: 16px;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.ten-sdt #sdt {
+	position: static;
+	width: 293px;
+	height: 56px;
+	left: 0px;
+	top: 80px;/* W */
+	background: #FFFFFF;/* inner shadow */
+	box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+	border-radius: 16px;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.email-add {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	position: static;
+	width: 491px;
+	height: 138px;
+	left: 317px;
+	top: 0px;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 24px;
+}
+
+.email-add #email {
+	position: static;
+	width: 480px;
+	height: 56px;
+	left: 0px;
+	top: 0px;/* W */
+	background: #FFFFFF;/* inner shadow */
+	box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+	border-radius: 16px;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.email-add #add {
+	position: static;
+	width: 480px;
+	height: 58px;
+	left: 0px;
+	top: 80px;/* W */
+	background: #FFFFFF;/* inner shadow */
+	box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+	border-radius: 16px;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 3px 0px;
+}
+
+.content input {
+	position: absolute;
+	width: 795px;
+	height: 152px;
+	left: 68px;
+	top: 319px;/* W */
+	background: #FFFFFF;/* inner shadow */
+	box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+	border-radius: 16px;
 }
