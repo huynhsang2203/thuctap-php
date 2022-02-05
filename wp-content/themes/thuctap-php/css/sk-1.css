@@ -58,6 +58,12 @@
 	float: left;
 }
 
+.group-2 {
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+}
+
 .text-title {
 
 	/* Sự kiện 1 */
@@ -78,9 +84,189 @@
 	color: #FFFFFF;
 }
 
-.group-2 {
+.content-center {
+	margin: 76px 50px 95px;
 	position: absolute;
-	right: 0px;
-	bottom: -15px;
+	height: 483px;
+	width: 1404px;
 }
 
+.content-center-1 {
+	/* CSS của khung chưa nội dung 1 */
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+.content-center-1-1 {
+
+	/* Hình ảnh của nội dung 1*/
+	position: absolute;
+	width: 411px;
+	height: 463px;
+	left: 58px;
+	top: 84px;
+}
+
+#content-center-1-1-1 {
+	position: relative;
+	height: 337px;
+	width: 411px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+}
+
+#content-center-1-1-2 {
+
+	/* <!-- Khung chứa thông tin giá vé, thời gian --> */
+	position: absolute;
+	width: 234px;
+	height: 104px;
+	left: 0px;
+	top: 300px;
+}
+
+#content-center-1-1-2-1 {
+
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+}
+
+#content-center-1-1-2-2 {
+
+	/* Đầm sen Park */
+	top: 25px;
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;/* identical to box height, or 144% */
+	display: flex;
+	align-items: center;
+	color: #6C7272;
+}
+
+#content-center-1-1-2-3 {
+
+	/* 25.000 VNĐ */
+	top: 35px;
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 48px;/* or 150% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+	color: #FA7D09;
+}
+
+.content-center-1-2 {
+
+	/*Phần text của nội dung 1*/
+
+	/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic sdsd typesetting, remaining cssa essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, of Lorem Ipsum. */
+	position: absolute;
+	top: 0px;
+	left: 391px;
+	right: 30px;
+	bottom: 15.14%;/* 18 medium */
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;/* or 150% */
+	display: block;
+	align-items: center;
+	text-align: justify;
+	color: #000000;
+}
+
+.content-center-1-2 b {
+	color: #FA7D09;
+}
+
+.content-center-2 {
+	position: absolute;
+	width: 288px;
+	height: 475px;
+	left: 743px;
+	top: 0px;
+	border-radius: 10px;
+}
+
+content-center-2-1 {
+	position: absolute;
+	width: 288px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+	border-radius: 10px;
+}
+
+.content-center-2-1 img {
+	position: relative;
+	width: 288px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+	border-radius: 10px;
+}
+
+#content-center-2-2 {
+	top: 191px;
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;/* or 144% */
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	color: #000000;
+}
+
+.content-center-3 {
+
+	/* Khung css của nội khung thứ 3 */
+	position: absolute;
+	width: 288px;
+	height: 475px;
+	left: 1074px;
+	top: 0px;
+}
+
+.content-center-3-1 {
+	width: 288px;
+	position: relative;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;/* or 144% */
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	color: #000000;
+}
+
+.content-center-3-2 {
+	position: relative;
+	width: 288px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+}
+
+.content-center-3-2 img {
+	width: 288px;
+	height: 195px;
+}
