@@ -1,0 +1,310 @@
+.bg-out {
+
+	/* contact us */
+	position: relative;
+	width: 1920px;
+	height: 1080px;/* bg */
+	background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+	border-radius: 32px;
+}
+
+.bg-in {
+	position: absolute;
+	width: 1784px;
+	height: 960px;
+	left: 75px;
+	top: 70px;/* Gradient / bg */
+	background: linear-gradient(180deg, #FFB648 0%, #FFB648 100%);
+	box-shadow: 0px 4px 27px rgba(180, 106, 38, 0.25);
+	border-radius: 0px 0px 56px 56px;
+}
+
+h1 {
+
+	/* Liên hệ */
+	position: absolute;
+	width: 328px;
+	height: 120px;
+	left: 796px;
+	top: 1px;/* Header */
+	font-family: iCiel Koni;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 100px;/* identical to box height, or 104% */
+
+	/* W */
+
+	color: #FFFFFF;
+}
+
+header .LittleLogo {
+
+	/* Little & Little Logo (ngang) 1 */
+	position: absolute;
+	width: 229px;
+	height: 91px;
+	left: 201px;
+	top: 1px;
+}
+
+header .banner {
+	position: relative;
+	width: 1924.5px;
+	height: 107.82px;
+	margin: auto;
+	left: 0px;
+	top: 0px;
+}
+
+header .tags-thongtin {
+
+	/* CSS tags */
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	position: absolute;
+	width: 541px;
+	height: 42px;
+	left: 703px;
+	top: 29px;
+}
+
+header #tags-trangchu {
+	float: left;	/* Tags */
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px 24px;
+	position: static;
+	width: 144px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+	opacity: 0.8;
+	border-radius: 33px;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+header #tags-sukien {
+	float: left;/* Tags */
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px 24px;
+	position: static;
+	width: 119px;
+	height: 42px;
+	left: 224px;
+	top: 0px;
+	opacity: 0.8;
+	border-radius: 33px;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+header #tags-lienhe {
+	float: left;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px 24px;
+	position: static;
+	width: 118px;
+	height: 42px;
+	left: 423px;
+	top: 0px;/* W */
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 33px;/* Inside auto layout */
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+header #text-trangchu {
+
+	/* Sample text */
+
+
+	position: static;
+	width: 96px;
+	height: 22px;
+	left: 24px;
+	top: 10px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;/* identical to box height */
+
+	/* W */
+
+	color: #FFFFFF;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+header #text-sukien {
+
+	/* Sample text */
+
+
+	position: static;
+	width: 71px;
+	height: 22px;
+	left: 24px;
+	top: 10px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;/* identical to box height */
+
+	/* W */
+
+	color: #FFFFFF;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+header #text-lienhe {
+
+	/* Sample text */
+
+	/* CSS của dòng liên hệ */
+	position: static;
+	width: 70px;
+	height: 22px;
+	left: 24px;
+	top: 10px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;/* identical to box height */
+
+	/* W */
+
+	color: #FFFFFF;/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+header .tags-phone {
+
+	/* CSS của tags-phone */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	position: absolute;
+	width: 137px;
+	height: 32px;
+	left: 1456px;
+	top: 34px;
+}
+
+header .tags-phone #tags-phone-li {
+
+	/* CSS li của tag-phone */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	position: absolute;
+}
+
+header .tags-phone #tags-phone-li p {
+
+	/* 0123456789 */
+
+
+	position: static;
+	width: 97px;
+	height: 20px;
+	left: 40px;
+	top: 6px;/* Montserrat / 16 bold */
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;/* identical to box height */
+
+	/* W */
+
+	color: #FFFFFF;/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 8px;
+}
+
+.container {
+	position: absolute;
+	width: 1520px;
+	height: 655px;
+	left: 211px;
+	top: 293px;
+	background-color: red;
+}
+
+.dangki {
+	float: left;
+}
+
+.dienthoai {
+	position: absolute;
+	width: 539px;
+	height: 205px;
+	left: 980px;
+	top: 441px;
+}
+
+.diachi {
+
+	/* địa chỉ */
+
+
+	position: absolute;
+	width: 539px;
+	height: 207px;
+	left: 980px;
+	top: 0px;
+}
+
+.email {
+
+	/* Email */
+
+
+	position: absolute;
+	width: 539px;
+	height: 205px;
+	left: 980px;
+	top: 220px;
+}
