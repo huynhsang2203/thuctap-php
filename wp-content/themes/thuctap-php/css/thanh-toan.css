@@ -1,9 +1,9 @@
 .bg-out {
+
     /* contact us */
     position: relative;
     width: 1920px;
-    height: 1080px;
-    /* bg */
+    height: 1080px;    /* bg */
     background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
     border-radius: 32px;
 }
@@ -13,32 +13,32 @@
     width: 1784px;
     height: 960px;
     left: 75px;
-    top: 70px;
-    /* Gradient / bg */
+    top: 70px;    /* Gradient / bg */
     background: linear-gradient(180deg, #FFB648 0%, #FFB648 100%);
     box-shadow: 0px 4px 27px rgba(180, 106, 38, 0.25);
     border-radius: 0px 0px 56px 56px;
 }
 
 h1 {
+
     /* Thanh toán */
     position: absolute;
     width: 524px;
     height: 100px;
     left: 627px;
-    top: 1px;
-    /* Header */
+    top: 1px;    /* Header */
     font-family: iCiel Koni;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
-    /* identical to box height, or 104% */
+    line-height: 100px;    /* identical to box height, or 104% */
+
     /* W */
     color: #FFFFFF;
 }
 
 header .LittleLogo {
+
     /* Little & Little Logo (ngang) 1 */
     position: absolute;
     width: 229px;
@@ -57,7 +57,9 @@ header .banner {
 }
 
 header .tags-nav {
+
     /* CSS tags */
+
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -71,8 +73,8 @@ header .tags-nav {
 }
 
 header #tags-trangchu {
-    float: left;
-    /* Tags */
+    float: left;    /* Tags */
+
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -84,8 +86,7 @@ header #tags-trangchu {
     left: 0px;
     top: 0px;
     opacity: 0.8;
-    border-radius: 33px;
-    /* Inside auto layout */
+    border-radius: 33px;    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -93,8 +94,8 @@ header #tags-trangchu {
 }
 
 header #tags-sukien {
-    float: left;
-    /* Tags */
+    float: left;    /* Tags */
+
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -106,8 +107,7 @@ header #tags-sukien {
     left: 224px;
     top: 0px;
     opacity: 0.8;
-    border-radius: 33px;
-    /* Inside auto layout */
+    border-radius: 33px;    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -124,12 +124,10 @@ header #tags-lienhe {
     width: 118px;
     height: 42px;
     left: 423px;
-    top: 0px;
-    /* W */
+    top: 0px;    /* W */
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
-    border-radius: 33px;
-    /* Inside auto layout */
+    border-radius: 33px;    /* Inside auto layout */
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -137,6 +135,7 @@ header #tags-lienhe {
 }
 
 header #text-trangchu {
+
     /* Sample text */
     position: static;
     width: 96px;
@@ -147,11 +146,10 @@ header #text-trangchu {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
+    line-height: 22px;    /* identical to box height */
+
     /* W */
-    color: #FFFFFF;
-    /* Inside auto layout */
+    color: #FFFFFF;    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -159,6 +157,7 @@ header #text-trangchu {
 }
 
 header #text-sukien {
+
     /* Sample text */
     position: static;
     width: 71px;
@@ -169,11 +168,10 @@ header #text-sukien {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
+    line-height: 22px;    /* identical to box height */
+
     /* W */
-    color: #FFFFFF;
-    /* Inside auto layout */
+    color: #FFFFFF;    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -181,7 +179,9 @@ header #text-sukien {
 }
 
 header #text-lienhe {
+
     /* Sample text */
+
     /* CSS của dòng liên hệ */
     position: static;
     width: 70px;
@@ -192,11 +192,10 @@ header #text-lienhe {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
+    line-height: 22px;    /* identical to box height */
+
     /* W */
-    color: #FFFFFF;
-    /* Inside auto layout */
+    color: #FFFFFF;    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -204,6 +203,7 @@ header #text-lienhe {
 }
 
 header .tags-phone {
+
     /* CSS của tags-phone */
     display: flex;
     flex-direction: row;
@@ -218,6 +218,7 @@ header .tags-phone {
 }
 
 header .tags-phone #tags-phone-li {
+
     /* CSS li của tag-phone */
     display: flex;
     flex-direction: row;
@@ -228,22 +229,21 @@ header .tags-phone #tags-phone-li {
 }
 
 header .tags-phone #tags-phone-li p {
+
     /* 0123456789 */
     position: static;
     width: 97px;
     height: 20px;
     left: 40px;
-    top: 6px;
-    /* Montserrat / 16 bold */
+    top: 6px;    /* Montserrat / 16 bold */
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
+    line-height: 20px;    /* identical to box height */
+
     /* W */
-    color: #FFFFFF;
-    /* Inside auto layout */
+    color: #FFFFFF;    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -251,6 +251,7 @@ header .tags-phone #tags-phone-li p {
 }
 
 .container {
+
     /* Container */
     position: absolute;
     background-color: red;
@@ -261,6 +262,7 @@ header .tags-phone #tags-phone-li p {
 }
 
 .svg-container-1 {
+
     /* svg-container-1 */
     position: absolute;
     left: 0%;
@@ -270,6 +272,7 @@ header .tags-phone #tags-phone-li p {
 }
 
 .svg-container-2 {
+
     /* svg-container-2 */
     position: absolute;
     left: 59.67%;
@@ -279,6 +282,7 @@ header .tags-phone #tags-phone-li p {
 }
 
 .svg-container-3 {
+
     /* svg-container-3 */
     position: absolute;
     left: 64.47%;
@@ -288,34 +292,34 @@ header .tags-phone #tags-phone-li p {
 }
 
 .container-1 {
+
     /* CSS Khung chứa chữ Vé Cổng Vé Gia Đình */
     position: absolute;
     width: 388px;
     height: 80px;
     left: 330px;
-    top: 275px;
-    /* button */
+    top: 275px;    /* button */
     filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
 }
 
 .container-1 p {
+
     /* VÉ CỔNG - VÉ GIA ĐÌNH */
     position: absolute;
     left: 31.09;
     right: 30.09px;
     top: -15px;
-    bottom: 22px;
-    /* Koni / 28 */
+    bottom: 22px;    /* Koni / 28 */
     font-family: iCiel Koni;
     font-style: normal;
     font-weight: 900;
     font-size: 28px;
-    line-height: 41px;
-    /* W */
+    line-height: 41px;    /* W */
     color: #FFFFFF;
 }
 
 .container-2 {
+
     /* /* CSS Khung chứa chữ Thông Tin Thanh Toán */
     position: absolute;
     left: 65.47%;
@@ -325,24 +329,25 @@ header .tags-phone #tags-phone-li p {
 }
 
 .container-2 p {
+
     /* THÔNG TIN THANH TOÁN */
     position: absolute;
     top: -15px;
     left: 28px;
     right: 27px;
-    bottom: 24.34px;
-    /* Koni / 28 */
+    bottom: 24.34px;    /* Koni / 28 */
     font-family: iCiel Koni;
     font-style: normal;
     font-weight: 900;
     font-size: 28px;
-    line-height: 41px;
-    /* W */
+    line-height: 41px;    /* W */
     color: #FFFFFF;
 }
 
 .content-1 {
+
     /* số tiền thanh toán */
+
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -350,12 +355,14 @@ header .tags-phone #tags-phone-li p {
     padding: 0px;
     position: absolute;
     width: 233px;
-    height: 94px;
+    height: 116px;
     left: 129px;
     top: 81px;
+    background-color: red;
 }
 
 .content-1 p {
+
     /* Số tiền thanh toán */
     position: static;
     left: 0%;
@@ -365,12 +372,11 @@ header .tags-phone #tags-phone-li p {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height, or 150% */
+    font-size: 28px;
+    line-height: 30px;    /* identical to box height, or 150% */
+
     /* Text */
-    color: #23221F;
-    /* Inside auto layout */
+    color: #23221F;    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -378,19 +384,57 @@ header .tags-phone #tags-phone-li p {
 }
 
 .content-1 input {
+
+    /* Frame 5 */
     position: static;
+    width: 225px;
+    height: 56px;
     left: 0%;
     right: 0%;
     top: 40.43%;
-    bottom: 0%;
-    /* W */
-    background: #FFFFFF;
-    /* inner shadow */
+    bottom: 0%;/* W */
+    background: #FFFFFF;/* inner shadow */
     box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
-    border-radius: 16px;
-    /* Inside auto layout */
+    border-radius: 16px;/* Inside auto layout */
     flex: none;
     order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.content-2 {
+
+    /* số lượng vé */
+
+    /* Auto layout */
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 123px;
+    height: 94px;
+    left: 426px;
+    top: 81px;
+}
+
+.content-2 p {
+    /* Số lượng vé */
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 68.09%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;/* identical to box height, or 150% */
+    /* Text */
+    color: #23221F;/* Inside auto layout */
+    flex: none;
+    order: 0;
     flex-grow: 0;
     margin: 8px 0px;
 }
