@@ -16,4 +16,8 @@ if(!function_exists('thuctap_enqueue')){
         wp_enqueue_style('thuctap_lienHe');
         wp_enqueue_style('thuctap_thanh-toan');
     }
+
+    function _need_connect_database() {
+        global $wpdb;
+        }
 }

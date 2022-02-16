@@ -19,3 +19,131 @@
 [16-Feb-2022 04:29:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\thuctap-php\wp-includes\class.wp-styles.php:214) in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 26
 [16-Feb-2022 04:29:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\thuctap-php\wp-includes\class.wp-styles.php:214) in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 26
 [16-Feb-2022 04:30:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\thuctap-php\wp-includes\class.wp-styles.php:214) in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 26
+[16-Feb-2022 09:26:32 UTC] PHP Notice:  Undefined property: wpdb::$wp_employess in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:26:32 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:26:32 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn 
+                SELECT id FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:26:32 UTC] PHP Notice:  Undefined property: wpdb::$wp_employess in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:26:32 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:26:32 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn 
+                SELECT id FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:26:33 UTC] PHP Notice:  Undefined property: wpdb::$wp_employess in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:26:33 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:26:33 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn 
+                SELECT id FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:28:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method wpdb::wp_employess() in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php:81
+Stack trace:
+#0 C:\xampp\htdocs\thuctap-php\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\thuctap-php\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\thuctap-php\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:28:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method wpdb::wp_employess() in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php:81
+Stack trace:
+#0 C:\xampp\htdocs\thuctap-php\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\thuctap-php\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\thuctap-php\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method wpdb::wp_employess() in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php:81
+Stack trace:
+#0 C:\xampp\htdocs\thuctap-php\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\thuctap-php\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\thuctap-php\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method wpdb::wp_employess() in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php:81
+Stack trace:
+#0 C:\xampp\htdocs\thuctap-php\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\thuctap-php\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\thuctap-php\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:28:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method wpdb::wp_employess() in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php:81
+Stack trace:
+#0 C:\xampp\htdocs\thuctap-php\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\thuctap-php\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\thuctap-php\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method wpdb::wp_employess() in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php:81
+Stack trace:
+#0 C:\xampp\htdocs\thuctap-php\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\thuctap-php\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\thuctap-php\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:31:22 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:31:22 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn SELECT id FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:31:23 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:31:23 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn SELECT id FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:31:23 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:31:23 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn SELECT id FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:32:21 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:21 UTC] PHP Notice:  Trying to get property 'wp_employess' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:21 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:32:22 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:22 UTC] PHP Notice:  Trying to get property 'wp_employess' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:22 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:32:44 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:44 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:44 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:32:45 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:45 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:45 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:32:45 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:45 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:32:45 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 81
+[16-Feb-2022 09:33:18 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:46 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:46 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:46 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:46 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:46 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:46 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  Undefined variable: wbdb in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  Trying to get property 'wp_user' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 86
+[16-Feb-2022 09:33:47 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in C:\xampp\htdocs\thuctap-php\wp-includes\functions.php on line 5768
+[16-Feb-2022 09:34:51 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'wp_employess' at line 1 với truy vấn wp_employess yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:34:54 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'wp_employess' at line 1 với truy vấn wp_employess yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:34:55 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'wp_employess' at line 1 với truy vấn wp_employess yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:34:55 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'wp_employess' at line 1 với truy vấn wp_employess yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:37:34 UTC] PHP Fatal error:  Cannot redeclare _need_connect_database() (previously declared in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\includes\enqueue.php:21) in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 2
+[16-Feb-2022 09:37:35 UTC] PHP Fatal error:  Cannot redeclare _need_connect_database() (previously declared in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\includes\enqueue.php:21) in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 2
+[16-Feb-2022 09:37:48 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'wp_employess' at line 1 với truy vấn wp_employess yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:40:08 UTC] PHP Notice:  Undefined property: wpdb::$wp_posts in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:40:08 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1 với truy vấn Truncate '' yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:40:10 UTC] PHP Notice:  Undefined property: wpdb::$wp_posts in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:40:10 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1 với truy vấn Truncate '' yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 09:40:12 UTC] PHP Notice:  Undefined property: wpdb::$wp_posts in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 09:40:12 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '''' at line 1 với truy vấn Truncate '' yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 10:00:02 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 10:00:02 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Table 'thuctap-php.options' doesn't exist với truy vấn SELECT * FROM options WHERE option_id = 1 yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 10:00:02 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 83
+[16-Feb-2022 10:00:52 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 10:00:52 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn SELECT * FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 10:00:52 UTC] PHP Notice:  Array to string conversion in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 83
+[16-Feb-2022 10:02:08 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 10:02:08 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn SELECT COUNT(*) FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 10:02:09 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 10:02:09 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn SELECT COUNT(*) FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 10:02:31 UTC] PHP Notice:  Undefined property: wpdb::$wp_employees in C:\xampp\htdocs\thuctap-php\wp-includes\wp-db.php on line 740
+[16-Feb-2022 10:02:31 UTC] Cơ sở dữ liệu của WordPress gặp lỗi You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 với truy vấn SELECT * FROM  yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/thuctap-php/index.php')
+[16-Feb-2022 10:04:31 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[16-Feb-2022 10:04:32 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[16-Feb-2022 10:06:38 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[16-Feb-2022 10:06:38 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152

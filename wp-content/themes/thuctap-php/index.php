@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="accset/css/thanh-toan.css">
+    <!-- <link rel="stylesheet" href="accset/css/thanh-toan.css"> -->
     <title>Thanh toán</title>
+    <?php
+    wp_head();
+    ?>
 </head>
 
 <body>
@@ -73,7 +76,6 @@
                     Số tiền thanh toán
                 </p>
                 <div class="content-1-1">
-
                 </div>
             </div>
             <div class="content-2">
@@ -199,6 +201,10 @@
         </div>
 
     </div>
+
+    <?php
+    wp_footer();
+    ?>
 </body>
 
 </html>
