@@ -720,8 +720,10 @@ header .tags-phone #tags-phone-li p {
     position: static;
     width: 391px;
     height: 56px;
-    left: 0px;
-    top: 38px;
+    left: 0%;
+    right: 0%;
+    top: 40.43%;
+    bottom: 0%;
     /* W */
     background: #FFFFFF;
     /* inner shadow */
@@ -730,7 +732,6 @@ header .tags-phone #tags-phone-li p {
     /* Inside auto layout */
     flex: none;
     order: 1;
-    align-self: stretch;
     flex-grow: 0;
     margin: 8px 0px;
 }

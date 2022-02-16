@@ -1,3 +1,19 @@
+<?php
+
+global $wpdb;
+//include_once("wp-config.php");
+//include_once("wp-includes/wp-db.php");
+
+$emloyeeId = isset($_REQUEST['id']) ? $_REQUEST['id'] : 1;
+if ($emloyeeId) {
+    $sql = "select * from wp_employees where id = {$emloyeeId}";
+    $result = $GLOBALS['wpdb']->get_row($sql);
+    //var_dump($result->id); die;
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -76,6 +92,9 @@
                     Số tiền thanh toán
                 </p>
                 <div class="content-1-1">
+                    <p>
+                        <?= $result->cost ?>
+                    </p>
                 </div>
             </div>
             <div class="content-2">
@@ -84,6 +103,9 @@
                 </p>
                 <div class="content-2-1">
                     <div class="content-2-1-1">
+                        <p>
+                            <?= $result->tickets ?>
+                        </p>
                     </div>
                     <p>
                         Vé
@@ -95,7 +117,9 @@
                     Ngày sử dụng
                 </p>
                 <div class="content-3-1">
-
+                    <p>
+                        <?= $result->date_start ?>
+                    </p>
                 </div>
 
             </div>
@@ -106,7 +130,9 @@
                     Thông tin liên hệ
                 </p>
                 <div class="content-4-1">
-
+                    <p>
+                        <?= $result->email ?>
+                    </p>
                 </div>
             </div>
 
@@ -116,7 +142,9 @@
                     Điện thoại
                 </p>
                 <div class="content-5-1">
-
+                    <p>
+                        <?= $result->phone ?>
+                    </p>
                 </div>
             </div>
 
@@ -126,7 +154,7 @@
                     Email
                 </p>
                 <div class="content-6-1">
-
+                    <h4><?= $result->email ?></h4>
                 </div>
             </div>
 
@@ -139,6 +167,9 @@
                         Số thẻ
                     </p>
                     <div class="content-7-1">
+                        <p>
+                            <?= $result->card_number ?>
+                        </p>
                     </div>
                 </div>
 
@@ -148,6 +179,9 @@
                         Họ tên chủ thẻ
                     </p>
                     <div class="content-8-1">
+                        <p>
+                            <?= $result->card_name ?>
+                        </p>
                     </div>
                 </div>
 
@@ -166,8 +200,9 @@
                     <p>
                         CVV/CVC
                     </p>
-                    <div class="content-10-1">
-                    </div>
+
+                    <input type="password" class="content-10-1" value="<?= $result->cvv_cvc ?>">
+
                 </div>
 
 
