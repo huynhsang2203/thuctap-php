@@ -93,7 +93,7 @@ if ($emloyeeId) {
                 </p>
                 <div class="content-1-1">
                     <p>
-                        <?= $result->cost ?>
+                        <?= $result->cost ?> vnđ
                     </p>
                 </div>
             </div>
