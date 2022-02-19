@@ -11,6 +11,26 @@
 
 <body>
     <div class="bg">
+
+        <!-- MAIN -->
+        <div class="main">
+            <!-- bg main -->
+            <div class="bg-main">
+                <img src="<?php bloginfo('stylesheet_directory') ?>/image/bg.svg" alt="">
+            </div>
+
+            <!-- Ảnh nhân vật Alvin_Arnold_Votay1 -->
+            <div class="img_Alvin_Arnold_Votay1">
+                <img src="<?php bloginfo('stylesheet_directory') ?>/image/Alvin_Arnold_Votay1.png" alt="">
+            </div>
+
+            <div class="cnt-tickets">
+
+            </div>
+        </div>
+        <!-- END_MAIN -->
+
+
         <!-- HEADER -->
         <header>
             <img src="<?php bloginfo('stylesheet_directory') ?>/image/header.svg" alt="header">
@@ -22,34 +42,48 @@
                     <p id="text-phone">
                         0123456789
                     </p>
-                    <div class="nav-tags tags-phone phone-svg">
+                    <div class="tags-phone phone-svg">
                         <img src="<?php bloginfo('stylesheet_directory') ?>/image/icon-phone.svg" alt="icon-phone">
                     </div>
                 </div>
 
 
-                <div class="nav-tags tags-3">
-                    <ul>
-                        <li><a href=""></a><p>Trang chủ</p></li>
-                        <li><a href=""></a>Sự kiện</li>
-                        <li><a href=""></a>Liên hệ</li>
-                    </ul>
-                    <!-- <p>
-                        xin chào
-                    </p> -->
+                <div class="tags-3">
+
+                    <div class="tags-trang-chu">
+                        <li>
+                            <a href="">
+                                <p>Trang chủ</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="tags-su-kien">
+                        <li>
+                            <a href="">
+                                <p>Sự kiện</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="tags-lien-he">
+                        <li>
+                            <a href="">
+                                <p>Liên hệ</p>
+                            </a>
+                        </li>
+                    </div>
+
                 </div>
 
             </div>
         </header>
         <!-- END_HEADER -->
-
-
-        <!-- MAIN -->
-        <div class="main" style="background-color: red;width: 100px;height: 200px;top: 200px; position: relative;left: 100px;">
-
-
+        <div class="title-center">
+            <p>
+                Thanh toán thành công
+            </p>
         </div>
-        <!-- END_MAIN -->
+
+
 
 
     </div>
