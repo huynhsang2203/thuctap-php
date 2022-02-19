@@ -1,20 +1,37 @@
+<?php
+
+global $wpdb;
+//include_once("wp-config.php");
+//include_once("wp-includes/wp-db.php");
+
+$emloyeeId = isset($_REQUEST['id']) ? $_REQUEST['id'] : 1;
+if ($emloyeeId) {
+    $sql = "select * from wp_employees where id = {$emloyeeId}";
+    $result = $GLOBALS['wpdb']->get_row($sql);
+    //var_dump($result->id); die;
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thành công</title>
-    <link rel="stylesheet" href=" <?php bloginfo('stylesheet_directory') ?>
-                                    /css/thanh-toan-thanh-cong.css">
+    <!-- <link rel="stylesheet" href="accset/css/thanh-toan.css"> -->
+    <title>Thanh toán</title>
+    <?php
+    wp_head();
+    ?>
 </head>
 
 <body>
     <div class="bg-out">
         <div class="bg-in">
             <div class="bg-vector">
-                <img src="<?php bloginfo('stylesheet_directory') ?>/image/bg.svg" alt="vector">
+                <img src="accset/img/bg.svg" alt="vector">
             </div>
             <h1>
                 Thanh toán
@@ -23,10 +40,10 @@
 
         <header>
             <div class="banner">
-                <img src="<?php bloginfo('stylesheet_directory') ?>/image/header.svg" alt="">
+                <img src="img/header.svg" alt="">
             </div>
             <div class="LittleLogo">
-                <img src="<?php bloginfo('stylesheet_directory') ?>/image/little.png" alt="littlelogo">
+                <img src="/accset/img/little.png" alt="littlelogo">
             </div>
             <div class="tags">
                 <ul class="tags-nav">
@@ -50,7 +67,7 @@
                 </ul>
                 <ul class="tags-phone">
                     <li id="tags-phone-li">
-                        <img src="<?php bloginfo('stylesheet_directory') ?>/image/icon-phone.svg" alt="phone">
+                        <img src="img/icon-phone.svg" alt="phone">
                         <p>
                             0123456789
                         </p>
@@ -223,7 +240,6 @@
     <?php
     wp_footer();
     ?>
-
 </body>
 
 </html>

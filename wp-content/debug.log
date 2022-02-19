@@ -459,3 +459,243 @@ Stack trace:
 [16-Feb-2022 19:09:26 UTC] PHP Notice:  Undefined property: stdClass::$number_card in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 169
 [16-Feb-2022 19:09:58 UTC] PHP Notice:  Undefined property: stdClass::$name_card in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 169
 [16-Feb-2022 19:09:58 UTC] PHP Notice:  Undefined property: stdClass::$name_card in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 169
+[18-Feb-2022 13:58:16 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 13:58:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 13:58:17 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 13:58:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 14:07:27 UTC] PHP Fatal error:  Cannot redeclare wp_load_image() (previously declared in C:\xampp\htdocs\thuctap-php\wp-includes\deprecated.php:3187) in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 16
+[18-Feb-2022 14:13:52 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[18-Feb-2022 14:13:53 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[18-Feb-2022 14:15:56 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[18-Feb-2022 14:15:56 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[18-Feb-2022 14:16:02 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[18-Feb-2022 14:16:02 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[18-Feb-2022 14:16:13 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[18-Feb-2022 14:16:13 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[18-Feb-2022 14:16:34 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[18-Feb-2022 14:16:34 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[18-Feb-2022 14:16:37 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[18-Feb-2022 14:16:37 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[18-Feb-2022 14:16:55 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 523
+[18-Feb-2022 14:16:55 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-customize-nav-menus.php on line 1152
+[18-Feb-2022 14:35:26 UTC] PHP Warning:  Đã xảy ra lỗi không mong muốn. Có thể có sự cố với WordPress.org hoặc cấu hình của máy chủ. Nếu bạn tiếp tục gặp sự cố, vui lòng thử hỏi trong <a href="https://wordpress.org/support/forums/">diễn đàn hỗ trợ</a>. (WordPress không thể thiết lập kết nối an toàn tới WordPress.org. Vui lòng liên hệ quản trị máy chủ của bạn.) in C:\xampp\htdocs\thuctap-php\wp-includes\update.php on line 413
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:33 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:05:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:51 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:05:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:53 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:05:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:05:55 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:05:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:08 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:09 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:10 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'cost' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 79
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'tickets' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 90
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'date_start' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 104
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 117
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'phone' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 129
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'email' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 140
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'card_number' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 154
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'card_name' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 166
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Undefined variable: result in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 187
+[18-Feb-2022 19:06:15 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[18-Feb-2022 19:06:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
