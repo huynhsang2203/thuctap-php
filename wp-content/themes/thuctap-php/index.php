@@ -47,7 +47,8 @@
                     </p>
 
                     <div class="svg-tick">
-                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg" alt="">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg"
+                            alt="">
                     </div>
 
                 </div>
@@ -76,7 +77,8 @@
                     </p>
 
                     <div class="svg-tick">
-                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg" alt="">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg"
+                            alt="">
                     </div>
 
                 </div>
@@ -105,7 +107,8 @@
                     </p>
 
                     <div class="svg-tick">
-                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg" alt="">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg"
+                            alt="">
                     </div>
 
                 </div>
@@ -133,9 +136,16 @@
                     </p>
 
                     <div class="svg-tick">
-                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg" alt="">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/tick-1.svg"
+                            alt="">
                     </div>
 
+                </div>
+
+                <div class="number-of-tickets">
+                    <p>
+                        Số lượng: 12 vé
+                    </p>
                 </div>
 
             </div>
@@ -152,7 +162,8 @@
         <!-- HEADER -->
         <header>
             <img src="<?php bloginfo('stylesheet_directory') ?>/image/header.svg" alt="header">
-            <img id="little_little_logo" src="<?php bloginfo('stylesheet_directory') ?>/image/little.png" alt="little-logo">
+            <img id="little_little_logo" src="<?php bloginfo('stylesheet_directory') ?>/image/little.png"
+                alt="little-logo">
 
             <div class="nav-tags">
 
@@ -200,9 +211,6 @@
                 Thanh toán thành công
             </p>
         </div>
-
-
-
 
     </div>
 </body>

@@ -425,3 +425,22 @@ a {
     left: calc(50% - 48px/2);
     top: calc(50% - 48px/2 + 210px);
 }
+
+.number-of-tickets {
+    /* Số lượng: 12 vé */
+    position: absolute;
+    width: 147px;
+    height: 30px;
+    left: 125px;
+    bottom: 76px;
+}
+
+.number-of-tickets p {
+    /* 20 medium */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #23221F;
+}
