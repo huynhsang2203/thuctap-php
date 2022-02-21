@@ -1,3 +1,5 @@
+<!-- ĐÂY LÀ THEME THANH TOÁN THÀNH CÔNG -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +19,7 @@
             <!-- bg main -->
             <div class="bg-main">
                 <img src="<?php bloginfo('stylesheet_directory') ?>/image/bg.svg" alt="">
+
             </div>
 
             <!-- Khung chứa vé -->
@@ -148,12 +151,38 @@
                     </p>
                 </div>
 
+                <div class="number-of-pages">
+                    <p>
+                        Trang 1/3
+                    </p>
+                </div>
+
+                <!-- Nút lùi lại -->
+                <div class="previous-btn">
+                    <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/previous-btn.svg"
+                        alt="">
+                    <button type="button">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/image/arrow_Down.png" alt="">
+                    </button>
+                </div>
+
+                <!-- Nút tiếp theo -->
+                <div class="next-btn">
+                    <img src="<?php bloginfo('stylesheet_directory') ?>/svg-thanh-toan-thanh-cong/previous-btn.svg"
+                        alt="">
+                    <button type="button">
+                        <img src="<?php bloginfo('stylesheet_directory') ?>/image/arrow_Down_2.png" alt="">
+                    </button>
+                </div>
+
             </div>
 
             <!-- Ảnh nhân vật Alvin_Arnold_Votay1 -->
             <div class="img_Alvin_Arnold_Votay1">
                 <img src="<?php bloginfo('stylesheet_directory') ?>/image/Alvin_Arnold_Votay1.png" alt="">
             </div>
+
+
 
         </div>
         <!-- END_MAIN -->
