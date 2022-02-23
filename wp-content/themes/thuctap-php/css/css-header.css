@@ -1,0 +1,182 @@
+header {
+
+    /* navigation  HEADER */
+    position: absolute;
+    width: 1920px;
+    height: 122.46px;
+    left: 8px;
+    top: 0px;
+}
+
+#little_little_logo {
+
+    /* Little & Little Logo (ngang) 1 */
+    position: absolute;
+    width: 229px;
+    height: 91px;
+    left: 201px;
+    top: 1px;
+}
+
+.nav-tags {
+
+    /* Khung chứ tags nav và tag phone của HEADER */
+    position: absolute;
+    width: 890px;
+    height: 42px;
+    left: 703px;
+    top: 29px;
+}
+
+.tags-phone {
+
+    /* Khung chứa phone của HEADER */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 137px;
+    height: 32px;
+    left: 753px;
+    top: 5px;
+}
+
+.tags-phone #text-phone {
+
+    /* 0123456789 */
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    left: 40px;
+    top: 6px;    /* Montserrat / 16 bold */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;    /* identical to box height */
+
+    /* W */
+    color: #FFFFFF;    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 3px;
+}
+
+.phone-svg {
+
+    /* Hình vẽ phone của HEADER */
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+
+.tags-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 541px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+}
+
+.tags-3 li, a {
+    float: left;
+    display: flex;
+    text-decoration: none;
+}
+
+.tags-3 .tags-trang-chu {
+
+    /* Tags */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: static;
+    padding: 0px 0px;
+    width: 144px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.8;
+    border-radius: 33px;    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.tags-3 .tags-su-kien {
+
+    /* Tags */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px;
+    position: static;
+    width: 144px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.8;
+    border-radius: 33px;    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.tags-3 .tags-lien-he {
+
+    /* Tags */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px;
+    position: static;
+    width: 144px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0.8;
+    border-radius: 33px;    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.tags-3 p {
+
+    /* Sample text */
+    position: static;
+    width: 96px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;    /* identical to box height */
+
+    /* W */
+    color: #FFFFFF;    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
