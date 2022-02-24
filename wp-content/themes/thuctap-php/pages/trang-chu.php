@@ -59,6 +59,38 @@
             <img src="<?php bloginfo( 'stylesheet_directory'); ?>/svg-trang-chu/main-bg1.svg" alt="main-bg1">
         </div>
 
+        <!-- Khung chứa đăng kí -->
+        <div class="register">
+            <form action="#" method="post">
+                <div class="family-package">
+                    <select name="select-choice" id="select-choice">
+                        <option value="Choice 1">Gói gia đình</option>
+                        <option value="Choice 2">Gói tiêu chuẩn</option>
+                        <option value="Choice 3">Gói VIP</option>
+                    </select>
+                </div>
+                <div class="number-of-ticket">
+                    <input type="text" placeholder="Số lượng vé">
+                </div>
+                
+                <div class="date-start">
+                    <input type="text" placeholder="Ngày sử dụng">
+                </div>
+
+                <div class="full-name">
+                    <input type="text" placeholder="Họ và tên">
+                </div>
+
+                <div class="phone">
+                    <input type="text" placeholder="Số điện thoại">
+                </div>
+
+                <div class="email">
+                    <input type="text" placeholder="Email">
+                </div>
+            </form>
+        </div>
+
     </div>
     <div class="ticket-title">
         <img src="<?php bloginfo( 'stylesheet_directory'); ?>/svg-trang-chu/ticket-title.svg" alt="ticket-title">

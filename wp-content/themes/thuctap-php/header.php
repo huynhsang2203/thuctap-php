@@ -1,5 +1,4 @@
 
-
 <!-- HEADER -->
 <header>
     <img src="<?php bloginfo('stylesheet_directory') ?>/image/header.svg" alt="header">
