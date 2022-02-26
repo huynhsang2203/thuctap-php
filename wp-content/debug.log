@@ -720,3 +720,7 @@ Stack trace:
 [19-Feb-2022 03:11:51 UTC] PHP Notice:  Trying to get property 'cvv_cvc' of non-object in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\index.php on line 188
 [19-Feb-2022 03:11:51 UTC] PHP Notice:  Trying to get property 'queue' of non-object in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
 [19-Feb-2022 03:11:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\thuctap-php\wp-includes\script-loader.php on line 2696
+[26-Feb-2022 08:17:33 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\functions.php on line 7
+[26-Feb-2022 08:17:33 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\thuctap-php\wp-content\themes\thuctap-php\functions.php on line 7
+[26-Feb-2022 08:17:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[26-Feb-2022 08:17:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\thuctap-php\wp-includes\class-wp-recovery-mode-email-service.php on line 352
