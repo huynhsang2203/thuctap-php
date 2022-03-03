@@ -1,0 +1,273 @@
+.bg-out {
+
+	/* Sự kiện */
+
+	position: absolute;
+	width: 1920px;
+	height: 1080px;	/* bg */
+	background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+	border-radius: 35px;
+}
+
+.bg-in {
+	position: relative;
+	width: 95%;
+	height: 926px;
+	margin: auto;
+	background: linear-gradient(180deg, #FFB648 0%, #FFB648 100%);
+	box-shadow: 0px 4px 27px rgba(180, 106, 38, 0.25);
+	border-radius: 0px 0px 56px 56px;
+}
+
+.header {
+	width: 1924px;
+	height: 100.82px;
+	left: 0px;
+	top: 0px;
+	background: #ED7200;
+	box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+	border-radius: 32px
+}
+
+.header .navbar, ul, li, a {
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 0px;
+	left: 746px;
+}
+
+.header .img-little {
+	position: absolute;
+	width: 229px;
+	height: 91px;
+	left: 201px;
+	top: 1px
+}
+
+.title {
+	position: relative;
+	width: 100%;
+	height: 226px;
+}
+
+.group-1 {
+	position: absolute;
+	float: left;
+}
+
+.group-2 {
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+}
+
+.text-title {
+
+	/* Sự kiện 1 */
+	float: left;
+	width: 420px;
+	position: absolute;
+	left: 42.32%;
+	right: 42.32%;
+	top: 50%;
+	bottom: 84.08%;
+	font-family: iCiel Koni;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 100px;/* or 156% */
+	display: flex;
+	align-items: center;/* W */
+	color: #FFFFFF;
+}
+
+.content-center {
+	margin: 76px 50px 95px;
+	position: absolute;
+	height: 483px;
+	width: 1404px;
+}
+
+.content-center-1 {
+	/* CSS của khung chưa nội dung 1 */
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+.content-center-1-1 {
+
+	/* Hình ảnh của nội dung 1*/
+	position: absolute;
+	width: 411px;
+	height: 463px;
+	left: 58px;
+	top: 84px;
+}
+
+#content-center-1-1-1 {
+	position: relative;
+	height: 337px;
+	width: 411px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+}
+
+#content-center-1-1-2 {
+
+	/* <!-- Khung chứa thông tin giá vé, thời gian --> */
+	position: absolute;
+	width: 234px;
+	height: 104px;
+	left: 0px;
+	top: 300px;
+}
+
+#content-center-1-1-2-1 {
+
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+}
+
+#content-center-1-1-2-2 {
+
+	/* Đầm sen Park */
+	top: 25px;
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;/* identical to box height, or 144% */
+	display: flex;
+	align-items: center;
+	color: #6C7272;
+}
+
+#content-center-1-1-2-3 {
+
+	/* 25.000 VNĐ */
+	top: 35px;
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 48px;/* or 150% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.005em;
+	color: #FA7D09;
+}
+
+.content-center-1-2 {
+
+	/*Phần text của nội dung 1*/
+
+	/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic sdsd typesetting, remaining cssa essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, of Lorem Ipsum. */
+	position: absolute;
+	top: 0px;
+	left: 391px;
+	right: 30px;
+	bottom: 15.14%;/* 18 medium */
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;/* or 150% */
+	display: block;
+	align-items: center;
+	text-align: justify;
+	color: #000000;
+}
+
+.content-center-1-2 b {
+	color: #FA7D09;
+}
+
+.content-center-2 {
+	position: absolute;
+	width: 288px;
+	height: 475px;
+	left: 743px;
+	top: 0px;
+	border-radius: 10px;
+}
+
+content-center-2-1 {
+	position: absolute;
+	width: 288px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+	border-radius: 10px;
+}
+
+.content-center-2-1 img {
+	position: relative;
+	width: 288px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+	border-radius: 10px;
+}
+
+#content-center-2-2 {
+	top: 191px;
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;/* or 144% */
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	color: #000000;
+}
+
+.content-center-3 {
+
+	/* Khung css của nội khung thứ 3 */
+	position: absolute;
+	width: 288px;
+	height: 475px;
+	left: 1074px;
+	top: 0px;
+}
+
+.content-center-3-1 {
+	width: 288px;
+	position: relative;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;/* or 144% */
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	color: #000000;
+}
+
+.content-center-3-2 {
+	position: relative;
+	width: 288px;
+	height: 208px;
+	left: 0px;
+	top: 0px;
+}
+
+.content-center-3-2 img {
+	width: 288px;
+	height: 195px;
+}
+

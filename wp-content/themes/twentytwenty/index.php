@@ -1,119 +1,99 @@
-<?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
- */
 
-get_header();
-?>
 
-<main id="site-content">
+<?php get_template_part( 'background' ); ?>
+<head>
+	<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory'); ?>/assets/css/trang-chu.css">
+</head>
+<body>
+	<?php get_template_part( 'background');?>
+	<div class="image3">
+		<img src="<?php bloginfo( 'stylesheet_directory'); ?>/image/image3.png" alt="image3">
+	</div>
 
-	<?php
+	<?php get_header();?>
 
-	$archive_title    = '';
-	$archive_subtitle = '';
+	<!-- ảnh hoa sen -->
+	<div class="hoa-sen">
+		<img src="<?php bloginfo( 'stylesheet_directory'); ?>/image/hoasen.png" alt="hoasen">
+	</div>
 
-	if ( is_search() ) {
-		global $wp_query;
+	<!-- chữ ĐẦM SEN PARK -->
+	<div class="dam-sen-park">
+		<h1>
+			<?php bloginfo( 'name' ) ?>
+		</h1>>
+	</div>
 
-		$archive_title = sprintf(
-			'%1$s %2$s',
-			'<span class="color-accent">' . __( 'Search:', 'twentytwenty' ) . '</span>',
-			'&ldquo;' . get_search_query() . '&rdquo;'
-		);
+	<div class="image2">
+		<img src="<?php bloginfo( 'stylesheet_directory'); ?>/image/image2.png" alt="image2">
+	</div>
 
-		if ( $wp_query->found_posts ) {
-			$archive_subtitle = sprintf(
-				/* translators: %s: Number of search results. */
-				_n(
-					'We found %s result for your search.',
-					'We found %s results for your search.',
-					$wp_query->found_posts,
-					'twentytwenty'
-				),
-				number_format_i18n( $wp_query->found_posts )
-			);
-		} else {
-			$archive_subtitle = __( 'We could not find any results for your search. You can give it another try through the search form below.', 'twentytwenty' );
-		}
-	} elseif ( is_archive() && ! have_posts() ) {
-		$archive_title = __( 'Nothing Found', 'twentytwenty' );
-	} elseif ( ! is_home() ) {
-		$archive_title    = get_the_archive_title();
-		$archive_subtitle = get_the_archive_description();
-	}
+	<div class="image4">
+		<img src="<?php bloginfo( 'stylesheet_directory'); ?>/image/image4.png" alt="image4">
+	</div>
 
-	if ( $archive_title || $archive_subtitle ) {
-		?>
+	<div class="image6">
+		<img src="<?php bloginfo( 'stylesheet_directory'); ?>/image/image6.png" alt="image6">
+	</div>
 
-		<header class="archive-header has-text-align-center header-footer-group">
 
-			<div class="archive-header-inner section-inner medium">
+	<div class="main">
+		<!-- background main -->
+		<!-- bg trái -->
+		<div class="main-bg">
+			<img src="<?php bloginfo( 'stylesheet_directory'); ?>/svg-trang-chu/main-bg.svg" alt="main-bg">
+		</div>
 
-				<?php if ( $archive_title ) { ?>
-					<h1 class="archive-title"><?php echo wp_kses_post( $archive_title ); ?></h1>
-				<?php } ?>
+		<!-- bg giữa -->
+		<div class="main-bg-mid">
+			<img src="<?php bloginfo( 'stylesheet_directory'); ?>/svg-trang-chu/main-bg-mid.svg" alt="main-bg-mid">
+		</div>
 
-				<?php if ( $archive_subtitle ) { ?>
-					<div class="archive-subtitle section-inner thin max-percentage intro-text"><?php echo wp_kses_post( wpautop( $archive_subtitle ) ); ?></div>
-				<?php } ?>
+		<!-- bg phải -->
+		<div class="main-bg1">
+			<img src="<?php bloginfo( 'stylesheet_directory'); ?>/svg-trang-chu/main-bg1.svg" alt="main-bg1">
+		</div>
 
-			</div><!-- .archive-header-inner -->
+		<!-- Khung chứa đăng kí -->
+		<div class="register">
+			<form action="#" method="post">
+				<div class="family-package">
+					<select name="select-choice" id="select-choice">
+						<option value="Choice 1">Gói gia đình</option>
+						<option value="Choice 2">Gói tiêu chuẩn</option>
+						<option value="Choice 3">Gói VIP</option>
+					</select>
+				</div>
+				<div class="number-of-ticket">
+					<input type="text" placeholder="Số lượng vé">
+				</div>
 
-		</header><!-- .archive-header -->
+				<div class="date-start">
+					<input type="text" placeholder="Ngày sử dụng">
+				</div>
 
-		<?php
-	}
+				<div class="full-name">
+					<input type="text" placeholder="Họ và tên">
+				</div>
 
-	if ( have_posts() ) {
+				<div class="phone">
+					<input type="text" placeholder="Số điện thoại">
+				</div>
 
-		$i = 0;
+				<div class="email">
+					<input type="text" placeholder="Email">
+				</div>
+			</form>
+		</div>
 
-		while ( have_posts() ) {
-			$i++;
-			if ( $i > 1 ) {
-				echo '<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true" />';
-			}
-			the_post();
+	</div>
+	<div class="ticket-title">
+		<img src="<?php bloginfo( 'stylesheet_directory'); ?>/svg-trang-chu/ticket-title.svg" alt="ticket-title">
+		<p>
+			Vé của bạn
+		</p>
+	</div>
 
-			get_template_part( 'template-parts/content', get_post_type() );
-
-		}
-	} elseif ( is_search() ) {
-		?>
-
-		<div class="no-search-results-form section-inner thin">
-
-			<?php
-			get_search_form(
-				array(
-					'aria_label' => __( 'search again', 'twentytwenty' ),
-				)
-			);
-			?>
-
-		</div><!-- .no-search-results -->
-
-		<?php
-	}
-	?>
-
-	<?php get_template_part( 'template-parts/pagination' ); ?>
-
-</main><!-- #site-content -->
-
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
-
-<?php
-get_footer();
+</body>
+</html>
+<?php get_header();?>
