@@ -1,6 +1,4 @@
 <?php get_template_part('background'); ?>
-
-
 <div class="row">
 	<h1>Sự kiện nổi bật</h1>
 </div>
@@ -22,7 +20,7 @@
 			</p>
 			<h3>25.000 VNĐ</h3>
 			<button>
-				<a href="<?php bloginfo( 'stylesheet_directory') ?>/template-parts/sk-1.php"><h4 class="h4">Xem chi tiết</h4></a>
+				<a href="<?php the_permalink(); ?>"><h4 class="h4">Xem chi tiết</h4></a>
 			</button>
 		</div>
 	</div>

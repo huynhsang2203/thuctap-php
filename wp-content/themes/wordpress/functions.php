@@ -38,8 +38,7 @@ function twentytwenty_theme_support() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
-	/*Chuyển về trình soạn thảo phiên bản cũ*/
-	add_filter('use_block_editor_for_post', '__return_false');
+	
 
 	// Custom background color.
 	add_theme_support(

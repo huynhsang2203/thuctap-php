@@ -6,6 +6,6 @@
 <div class="background">
     <div class="container">
         <!-- background container -->
-        <img src="<?php bloginfo('stylesheet_directory')?>/svg-trang-chu/bg.svg"alt="background-container">
+        <img src="<?php bloginfo('stylesheet_directory')?>/svg-chung/bg.svg"alt="background-container">
     </div>
 </div>
